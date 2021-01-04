@@ -8,7 +8,7 @@
 
 The data link the American Medical Association (AMA) Physician Masterfile with all-payer hospital discharge claims from New York, Florida and Pennsylvania in 2012-2013. The study population consists of all patients admitted for inpatient care emergently, urgently, or through the emergency department. The data also include patient sociodemographic and clinical characteristics including indicators for frailty, severe sepsis  or septic shock, and 31 comorbidities based on Elixhauser indices.
 
-###Availability
+### Availability
 
 The data used in this paper are not publicly available because they contain sensitive information about patients’ medical history. They can, however, be accessed from each state through a formal application.  We include a simulated data set to allow users run the functions without access to the original data used in our analysis.
 
@@ -21,12 +21,17 @@ The R code to run all the analyses in the manuscript along with supporting funct
 ### Optional Information 
 
 Computing Information:
+
 R version 4.0.2 (2020-06-22)
+
 Platform: x86_64-apple-darwin17.0 (64-bit)
+
 Running under: macOS Catalina 10.15.7
 
 attached packages:
-rcbalance_1.8.5 plyr_1.8.6      
+
+rcbalance_1.8.5
+plyr_1.8.6      
 MASS_7.3-51.6   
 optmatch_0.9-13 
 survival_3.1-12 
